@@ -14,5 +14,12 @@ public class Main{
         {
             System.out.print(countDown + " ");
         }
+        // Count by 3 from 0 to 18
+        System.out.println(" ");
+        System.out.println("Count up by 3 from 0 to 18: ");
+        for (int countByThree = 0; countByThree <= 18; countByThree += 3)
+        {
+            System.out.print(countByThree + " ");
+        }
     }
 }
