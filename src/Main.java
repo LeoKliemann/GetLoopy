@@ -1,6 +1,8 @@
 public class Main{
     public static void main(String[] args)
     {
+        // Part A
+
         // 1 to 30
         System.out.println("Count up to 30: ");
         for (int countUp = 0; countUp <= 30; countUp++)
@@ -23,10 +25,32 @@ public class Main{
         }
         // Count down by 2 from 10 to 0
         System.out.println(" ");
-        System.out.println("Count down by 2 from 10 to 0");
+        System.out.println("Count down by 2 from 10 to 0: ");
         for (int countDownByTwo = 10; countDownByTwo >= 0; countDownByTwo -= 2)
         {
             System.out.print(countDownByTwo + " ");
+        }
+
+        // Part B
+
+        // Task 5
+        System.out.println(" ");
+        System.out.println("Nested Loop 1: ");
+
+        // Task 6
+        System.out.println(" ");
+        System.out.println("Nested Loop 2: ");
+
+        // Task 7
+        System.out.println(" ");
+        System.out.println("Nested loop 3: ");
+        for(int row = 0; row < 5; row++)
+        {
+            for (int col = 0; col < 5; col++)
+            {
+                System.out.print("* ");
+            }
+            System.out.println();
         }
     }
 }
