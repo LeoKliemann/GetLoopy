@@ -21,5 +21,12 @@ public class Main{
         {
             System.out.print(countByThree + " ");
         }
+        // Count down by 2 from 10 to 0
+        System.out.println(" ");
+        System.out.println("Count down by 2 from 10 to 0");
+        for (int countDownByTwo = 10; countDownByTwo >= 0; countDownByTwo -= 2)
+        {
+            System.out.print(countDownByTwo + " ");
+        }
     }
 }
