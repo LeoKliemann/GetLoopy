@@ -7,5 +7,12 @@ public class Main{
         {
             System.out.print(countUp + " ");
         }
+        // 30 to 1
+        System.out.println(" ");
+        System.out.println("Count down from 30:   ");
+        for (int countDown = 30; countDown >= 1; countDown--)
+        {
+            System.out.print(countDown + " ");
+        }
     }
 }
