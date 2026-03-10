@@ -1,9 +1,11 @@
-import java.util.Scanner;
-
 public class Main{
     public static void main(String[] args)
     {
-        Scanner in = new Scanner(System.in);
-        
+        // 1 to 30
+        System.out.println("Count up to 30: ");
+        for (int countUp = 1; countUp <= 30; countUp++)
+        {
+            System.out.print(countUp + " ");
+        }
     }
 }
