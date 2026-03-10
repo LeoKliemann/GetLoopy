@@ -1,7 +1,7 @@
 public class Main{
     public static void main(String[] args)
     {
-        // Part A
+        // === Part A === \\
 
         // 1 to 30
         System.out.println("Count up to 30: ");
@@ -31,12 +31,19 @@ public class Main{
             System.out.print(countDownByTwo + " ");
         }
 
-        // Part B
+        // === Part B === \\
 
         // Task 5
         System.out.println(" ");
         System.out.println("Nested Loop 1: ");
-
+        for(int row = 1; row <= 5; row++)
+        {
+            for (int col = 0; col < row; col++)
+            {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
         // Task 6
         System.out.println(" ");
         System.out.println("Nested Loop 2: ");
